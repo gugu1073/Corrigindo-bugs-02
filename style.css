@@ -1,0 +1,290 @@
+body {
+  margin: auto;
+
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+
+  background-color: greenyellow;
+
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto 50px;
+  padding-top: 65px;
+}
+
+#logo {
+
+  position: absolute;
+  left: 9.53%;
+  right: 82.42%;
+  top: 40px;
+  bottom: 87.36%;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 26px;
+ color: #89C5CC;
+
+ mix-blend-mode: normal;
+}
+
+
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  margin-bottom: 15px;
+  
+}
+ 
+ .menu {
+ list-style: none;
+ text-align: right;;
+ }
+
+ .home{
+  list-style-type: none;
+  position: absolute;
+  left: 67.19%;
+  right: 28.83%;
+  top: 9.03%;
+  bottom: 87.78%;
+
+ font-family: 'Mulish';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 23px;
+
+ color: #1F1534;
+ } 
+
+ .sobre {
+  list-style-type: none;
+  position: absolute;
+  left: 74.92%;
+  right: 21.25%;
+  top: 9.03%;
+  bottom: 87.78%;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  
+  color: #1F1534;
+  
+  opacity: 0.5;
+
+
+ }
+
+ .treinar {
+  list-style-type: none;
+  position: absolute;
+  left: 82.5%;
+  right: 11.95%;
+  top: 9.03%;
+  bottom: 87.78%;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+
+
+ color: #1F1534;
+
+ opacity: 0.5;
+
+
+ }
+
+ .menu {
+ 
+  position: absolute;
+  left: 67.19%;
+  right: 28.83%; 
+  top: 9.03%;
+ bottom: 87.78%;
+
+ font-family: 'Mulish';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 23px;
+
+ color: black;
+
+ }
+
+ .academia img {
+
+  position: absolute;
+  left: 69.63%;
+  right: 28.18%;
+  top: 30.19%;
+  bottom: 63.87%;
+ }
+
+
+
+a {
+  position: absolute;
+left: 67.19%;
+right: 28.83%;
+top: 9.03%;
+bottom: 87.78%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+  color: black;
+  text-decoration: none;
+}
+
+#logo img {
+  
+  position: absolute;
+  left: 9.53%;
+  right: 82.42%;
+  top: 9.03%;
+  bottom: 87.36%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+
+}
+
+
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+h1 {
+  position: absolute;
+  left: 9.3%;
+  right: 52.5%;
+  top: 27.36%;
+  bottom: 57.08%;
+
+ font-family: 'Mulish';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 49px;
+ line-height: 56px;
+ color: #1F1534;
+}
+
+h1 span {
+  color: #0bd5ec;
+  font-weight: bold;
+}
+
+section p {
+  position: absolute;
+left: 9.37%;
+right: 56.41%;
+top: 48.47%;
+bottom: 39.86%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* or 200% */
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+button {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 14px 32px 15px;
+ gap: 10px;
+
+ position: absolute;
+ width: 182px;
+ height: 56px;
+ left: 120px;
+ top: 473px;
+
+ 
+
+ background: #69B99D; 
+ border-radius: 4px;
+ position: absolute;    
+}
+
+button:hover {
+  background: #4EA788;
+}
+
+footer {
+  position: absolute;
+left: 26.87%;
+right: 26.88%;
+top: 91.94%;
+bottom: 4.17%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+  
+}
+
+footer a {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
